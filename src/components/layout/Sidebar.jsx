@@ -50,8 +50,8 @@ export default function Sidebar() {
 
   return (
     <aside className="w-60 h-screen bg-slate-900 text-white flex flex-col fixed top-0 left-0 z-40">
-      <div className="px-6 py-5 border-b border-slate-700">
-        <img src={logo} alt="PGKamalik" className="h-8 w-auto" />
+      <div className="px-5 py-5 border-b border-slate-700">
+        <img src={logo} alt="PGKamalik" className="h-10 w-auto" />
       </div>
 
       <nav className="flex-1 px-3 py-4 overflow-y-auto scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
